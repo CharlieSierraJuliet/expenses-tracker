@@ -19,9 +19,11 @@
     border: 1px solid #ccc;
     width: 20rem;
     max-width: 100%;
+    
   }
   
-  .new-expense__actions {
+  .new-expense__actions{
     text-align: right;
-    margin-left: 75%;
+    margin-left: 60%;
+    margin-right: 10%;
   }
