@@ -4,7 +4,7 @@ const ExpenseList=(props)=>{
    
   if(props.item.length===0)
   {
-   return <p>अबे कंजूस </p>
+   return <p>No Expenses Found!!!</p>
   }
 
   return (
