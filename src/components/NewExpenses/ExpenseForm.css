@@ -4,7 +4,6 @@
     gap: 1rem;
     margin-bottom: 1rem;
     text-align: left;
-    flex-direction: column;
     
   }
   
@@ -28,14 +27,5 @@
   .new-expense__actions{
     text-align:justify;
     margin-left: 60%;
-    margin-right: 10%;
-    
-  }
-
-  @media (max-width:500px) {
-
-    .new-expense__actions{
-     flex-direction: column;
-    }
-    
+    margin-right: 5%;
   }
