@@ -20,7 +20,7 @@ import { useState } from 'react'
         event.preventDefault()
         const data={
             title:title,
-            amount: amount,
+            amount:+amount,
             date:new Date(date)
         }
 

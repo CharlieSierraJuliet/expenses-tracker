@@ -4,6 +4,7 @@ import NewExpenses from "./components/NewExpenses/NewExpenses";
 //import ExpenseItem from "./components/ExpenseItem";
 import Expenses from "./components/Expenses/Expenses";
 import { useState } from "react";
+//import ExpensesChart from "./components/Expenses/ExpensesChart";
 function App() {
   const DUMMY = [
     {
@@ -30,6 +31,7 @@ function App() {
   const [expenses,setExpenses]=useState(DUMMY)
 
 
+
 const handleData=(data)=>{
   //expenses=[{...data}]
   setExpenses((prevExpenses)=>{
@@ -40,6 +42,7 @@ const handleData=(data)=>{
   return (
     <div className="App">
       <NewExpenses onReceiveData={handleData} />
+      
       <Expenses data={expenses} />
     </div>
   );
